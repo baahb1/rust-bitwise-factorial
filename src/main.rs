@@ -12,7 +12,8 @@ fn main() {
 
     let mut input = String::new();
 
-    io::stdin().read_line(&mut input);
+    io::stdin().read_line(&mut input)
+    .ok();
     let input_str: &str = &input[..]; 
 
     
@@ -25,7 +26,8 @@ fn main() {
 
     let mut input = String::new();
 
-    io::stdin().read_line(&mut input);
+    io::stdin().read_line(&mut input)
+    .ok();
     let input_str: &str = &input[..]; 
 
     
